@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import OneHealthLogo from '../components/OneHealthLogo';
 import '../../css/Login.css';
+import { LoginButton } from '../components/login-button';
 
 export default function Login(){
     // state variables
@@ -58,6 +59,7 @@ export default function Login(){
                                 <p>Don't have an account?</p>
                                 <a href="#create-account">Create one</a>
                             </div>
+                            <LoginButton />
                         </form>
                     </div>
                 </div>
