@@ -1,19 +1,15 @@
 import { useState } from 'react';
 import OneHealthLogo from '../components/OneHealthLogo';
-import '../../css/Login.css';
+import AddDependent from '../components/addDependent';
+import '../../css/dependent.css';
 
 export default function Login(){
-    // state variables
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-
-    function handleLogin() {
-        console.log(`User ${email} has logged in`);
-    }
 
     return (
         <>
-            <div className="login-body">
+            {
+            <AddDependent/>
+            /* <div className="login-body">
                 <div className="logo-header">
                     <OneHealthLogo />
                     <h1>ONEHEALTH</h1>
@@ -61,7 +57,8 @@ export default function Login(){
                         </form>
                     </div>
                 </div>
-            </div>
+            </div> */
+            }
         </>
     )
 }
