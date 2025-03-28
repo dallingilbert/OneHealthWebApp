@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.form-container {
+    align-items: center;
+    justify-content: stretch;
+}
+
+.card label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 16px;
+}
+
+label {
+    display: flex;
+    row-gap: 10px;
+}
+
+.dependent {
+    min-width: 600px;
+}
+
+input, select {
+    border-radius: 5px;
+    padding: 10px;
+    width: 95%;
+}
